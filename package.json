@@ -1,0 +1,22 @@
+{
+  "name": "hyerinapi_project",
+  "version": "1.0.0",
+  "description": "날씨 미니 프로젝트(API 연동)",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HyeRinGrace/HyerinAPI_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HyeRinGrace/HyerinAPI_Project/issues"
+  },
+  "homepage": "https://github.com/HyeRinGrace/HyerinAPI_Project#readme",
+  "dependencies": {
+    "dayjs": "^1.11.10"
+  }
+}
