@@ -64,7 +64,7 @@ const SettingURL = async () =>{
 
 }
 
-// 구름량 받아오는 함수
+// 구름량/날씨 받아오는 함수
 function cloudRender(){
     cloudArr.find((item)=>{
         cloud.innerHTML = `날씨 : ${item.description}`;
@@ -102,7 +102,7 @@ const day = () =>{
     const date = new Date();
     const year = date.getFullYear();
     const month = date.getMonth() + 1;
-    const day = date.getDay() +28;
+    const day = date.getDay()+4;
     const hour = date.getHours();
     const minutes = date.getMinutes();
     const second = date.getSeconds();
